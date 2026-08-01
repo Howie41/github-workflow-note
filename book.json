@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus",
+    "flexible-alerts"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gitbook-plugin-flexible-alerts": "^1.0.4",
+    "honkit": "^6.2.2"
+  },
+  "devDependencies": {
+    "gitbook-plugin-search-plus": "^1.0.4-alpha-3"
+  }
+}
