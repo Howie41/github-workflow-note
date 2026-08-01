@@ -1,4 +1,8 @@
 {
+  "name": "rc-github-guidebook",
+  "scripts": {
+    "build": "honkit build"
+  },
   "dependencies": {
     "gitbook-plugin-flexible-alerts": "^1.0.4",
     "honkit": "^6.2.2"
