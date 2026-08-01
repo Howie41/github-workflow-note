@@ -1,0 +1,15 @@
+{
+  "name": "rc-github-guidebook",
+  "scripts": {
+    "build": "honkit build",
+    "deploy": "honkit build && gh-pages -d _book"
+  },
+  "dependencies": {
+    "gitbook-plugin-flexible-alerts": "^1.0.4",
+    "honkit": "^6.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "gitbook-plugin-search-plus": "^1.0.4-alpha-3"
+  }
+}

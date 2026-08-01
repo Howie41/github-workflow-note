@@ -1,0 +1,693 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Git & GitHub 工作流指南 · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-flexible-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="git-and-github.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Git & GitHub 工作流指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="./">
+            
+                <a href="./#写在前面">
+            
+                    
+                    写在前面
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="git-and-github.html">
+            
+                <a href="git-and-github.html">
+            
+                    
+                    Git 与 GitHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="git-and-github.html">
+            
+                <a href="git-and-github.html#什么是-git">
+            
+                    
+                    什么是 Git?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="git-and-github.html">
+            
+                <a href="git-and-github.html#什么是-github">
+            
+                    
+                    什么是 GitHub?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="before-development.html">
+            
+                <a href="before-development.html">
+            
+                    
+                    开发前要做的
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="before-development.html">
+            
+                <a href="before-development.html#1-检查环境">
+            
+                    
+                    1. 检查环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="before-development.html">
+            
+                <a href="before-development.html#2-克隆仓库">
+            
+                    
+                    2. 克隆仓库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="before-development.html">
+            
+                <a href="before-development.html#3-打开仓库文件夹">
+            
+                    
+                    3. 打开仓库文件夹
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html">
+            
+                    
+                    开发流程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#1-拉取主分支">
+            
+                    
+                    1. 拉取主分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#2-创建开发分支dev-branch">
+            
+                    
+                    2. 创建开发分支(Dev Branch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#3-写代码">
+            
+                    
+                    3. 写代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#4-暂存-提交">
+            
+                    
+                    4. 暂存, 提交
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#5-新建-pull-request">
+            
+                    
+                    5. 新建 Pull Request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#6-审查代码">
+            
+                    
+                    6. 审查代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#7-在-pull-request-中合并">
+            
+                    
+                    7. 在 Pull Request 中合并
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#8-回到主分支">
+            
+                    
+                    8. 回到主分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="development-workflow.html">
+            
+                <a href="development-workflow.html#tips">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="qa.html">
+            
+                <a href="qa.html">
+            
+                    
+                    Q&A
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="qa.html">
+            
+                <a href="qa.html#分支是什么">
+            
+                    
+                    分支是什么?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="qa.html">
+            
+                <a href="qa.html#提交是什么">
+            
+                    
+                    提交是什么?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="qa.html">
+            
+                <a href="qa.html#pull-request-是什么">
+            
+                    
+                    Pull Request 是什么?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="qa.html">
+            
+                <a href="qa.html#怎么给分支起名字">
+            
+                    
+                    怎么给分支起名字?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="qa.html">
+            
+                <a href="qa.html#提交信息怎么写">
+            
+                    
+                    提交信息怎么写?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="qa.html">
+            
+                <a href="qa.html#文件名旁边的字母是什么意思">
+            
+                    
+                    文件名旁边的字母是什么意思?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="qa.html">
+            
+                <a href="qa.html#如何切换签出到分支">
+            
+                    
+                    如何切换/签出到分支?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="qa.html">
+            
+                <a href="qa.html#储藏是什么-怎么用">
+            
+                    
+                    储藏是什么? 怎么用?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="qa.html">
+            
+                <a href="qa.html#如何处理冲突">
+            
+                    
+                    如何处理冲突?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="qa.html">
+            
+                <a href="qa.html#如何处理-ioc-文件的合并冲突">
+            
+                    
+                    如何处理 .ioc 文件的合并冲突?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="qa.html">
+            
+                <a href="qa.html#我在开发分支里-怎么把主分支的最新修改同步过来">
+            
+                    
+                    我在开发分支里, 怎么把主分支的最新修改同步过来?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Git & GitHub 工作流指南</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="git--github-工作流指南">Git &amp; GitHub 工作流指南</h1>
+<h2 id="写在前面">写在前面</h2>
+<p>为了让你<strong>即刻上手这套流程</strong>，本文主要说"<strong>怎么做</strong>"。</p>
+<p>至于"<strong>为什么</strong>"，文中穿插了一些 Q&amp;A 章节的链接，以便你按需查阅，就像这样：</p>
+<blockquote>
+<p>[!note]</p>
+<p>❓<strong>提交信息怎么写？详见 Q&amp;A 章节 <a href="qa.html#提交信息怎么写">提交信息怎么写?</a>。</strong></p>
+</blockquote>
+<p>本文的流程不涉及 Git 命令行，而是在 VS Code 图形界面就完成基本 Git 操作。</p>
+<p>本文对一些 Git 概念介绍上有所简化<del>主打一个能明白就行</del>。</p>
+<p>下面会简单介绍 Git 和 GitHub 是什么。如果你已经了解，可以直接从 <a href="before-development.html">开发前要做的</a> 章节开始阅读。</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="git-and-github.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Git 与 GitHub">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Git & GitHub 工作流指南","level":"1.1","depth":1,"next":{"title":"Git 与 GitHub","level":"1.2","depth":1,"path":"git-and-github.md","ref":"git-and-github.md","articles":[{"title":"什么是 Git?","level":"1.2.1","depth":2,"anchor":"#什么是-git","path":"git-and-github.md","ref":"git-and-github.md#什么是-git","articles":[]},{"title":"什么是 GitHub?","level":"1.2.2","depth":2,"anchor":"#什么是-github","path":"git-and-github.md","ref":"git-and-github.md#什么是-github","articles":[]}]},"articles":[{"title":"写在前面","level":"1.1.1","depth":2,"anchor":"#写在前面","path":"README.md","ref":"README.md#写在前面","articles":[]}],"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-lunr","-search","search-plus","flexible-alerts"],"pluginsConfig":{"search-plus":{},"flexible-alerts":{"style":"callout","note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2026-08-01T13:50:44.252Z","type":"markdown"},"gitbook":{"version":"6.2.2","time":"2026-08-01T15:06:43.870Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
